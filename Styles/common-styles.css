@@ -1,0 +1,461 @@
+﻿body {
+    background: #7c9b48 url('../Images/under-the-ocean-wallpaper.jpg');
+    min-height: 2000px;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font: normal normal 62.5%/1.8 "MetricRegular", Helvetica, Arial, sans-serif;
+    color: #20303c;
+}
+
+header .top-bar {
+    padding: 1rem 0;
+    background-color: #c61b31;
+}
+
+@media only screen and (min-width: 1025px) {
+    .valign-right {
+        float: right !important;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    article {
+        margin: 0 auto;
+        text-align: center;
+        float: none !important;
+    }
+
+    #tea-pot {
+        width: 180px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header .top-bar a {
+        padding: .8rem 0 0;
+    }
+}
+
+header .top-bar a {
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: .2rem 0 0;
+}
+
+header .site-intro {
+    background-color: #fff;
+    padding: 3rem;
+    display: block;
+    text-align: center;
+    z-index: 1;
+}
+
+.map-container {
+    margin-top: 600px;
+    min-height: 2800px;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+.hidden-md-up {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+h1 {
+    font-size: 3.2rem;
+    line-height: 2;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'FFFFORWA';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: .8em;
+    margin: 0 0 10px;
+}
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+
+h2 {
+    font-family: 'FFFFORWA';
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    line-height: 1.6;
+}
+
+@media only screen and (min-width: 768px) {
+    h2 {
+        font-size: 3.6rem;
+    }
+}
+
+h3 {
+    background-color: #1a7ab4;
+    color: #fff;
+	    width: 100%;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding: .8rem 1rem;
+    margin-left: -1rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+/* tea- pot smoke effect */
+.tea-pot-smoke {
+    position: absolute;
+}
+
+.smoke-1 {
+    margin-left: 200px;
+    height: 75px;
+    bottom: 170px;
+    -moz-animation: smokeA 6s infinite;
+    -o-animation: smokeA 6s infinite;
+    -webkit-animation: smokeA 6s infinite;
+    -ms-animation: smokeA 6s infinite;
+    animation: smokeA 6s infinite;
+}
+
+.smoke-2 {
+    margin-left: 230px;
+    height: 50px;
+    bottom: 170px;
+        transform: rotateY(180deg);
+    -ms-animation: smokeA 2s infinite;
+    -webkit-animation: smokeA 2s infinite;
+    -moz-animation: smokeA 2s infinite;
+    -o-animation: smokeA 2s infinite;
+    animation: smokeA 2s infinite;
+}
+ 
+
+.tea-cup-smoke {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: url('http://demo.web3designs.com/smoke-texture.png') no-repeat;
+    bottom: 150px;
+    margin-left: 0px;
+}
+
+#scotland-tea-cup .smoke {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background: url('https://i.imgur.com/pVI5HbP.png') no-repeat;
+    margin-left: 10px;
+}
+
+section #tea-pot-container {
+    position: fixed;
+    top: 150px;
+    left: 50%;
+    margin-left: -95px;
+    z-index: 1;
+}
+
+section #scroll {
+    position: absolute;
+    top: 720px;
+    left: 50%;
+    margin-left: -11px;
+    -webkit-animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+    -ms-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+section .absolute-position {
+    position: absolute;
+    left: 50%;
+}
+
+section #tea-pot-container #tea-pot {
+    -moz-animation: rock 10s infinite;
+    -o-animation: rock 10s infinite;
+    -webkit-animation: rock 10s infinite;
+    -ms-animation: rock 10s infinite;
+    animation: rock 10s infinite;
+}
+
+.scotland-tea {
+    top: 700px;
+    position: absolute;
+}
+
+section article .content-box {
+    padding: 2.5rem 3rem;
+    background-color: #fff;
+    -moz-box-shadow: -15px 15px 0px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: -15px 15px 0px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: -15px 15px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+section article {
+    max-width: 340px;
+}
+
+section .translateY40 {
+    z-index: -1;
+    -webkit-animation: translateY40 10s infinite;
+    -ms-animation: translateY40 10s infinite;
+    -moz-animation: translateY40 10s infinite;
+    -o-animation: translateY40 10s infinite;
+    animation: translateY40 10s infinite;
+}
+
+
+html > body section .translateY40 {
+    z-index: -1;
+    -webkit-animation: translateY40 10s infinite;
+    -ms-animation: translateY40 10s infinite;
+    -moz-animation: translateY40 10s infinite;
+    -o-animation: translateY40 10s infinite;
+    animation: translateY40 10s infinite;
+}
+
+#skrollr-body {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+
+#scotland-tea-cup {
+    top: 500px;
+    margin-left: 0;
+}
+
+#eastmidland-tea-cup {
+    top: 120px;
+    left: 50px;
+}
+
+#yorkshire-tea-cup {
+    top: 0px;
+    margin-left: 60px;
+}
+
+#northwest-tea-cup {
+    top: -10px;
+    margin-left: 140px;
+}
+
+#eastanglia-tea-cup {
+    top: 0;
+    left: 80%;
+}
+
+/*scotland tea */
+section article#scotland-tea-information {
+    margin-top: 150px;
+    opacity: 1;
+}
+
+/*east midland tea */
+section article#eastmidland-tea-information {
+    margin-top: 50px;
+    opacity: 1;
+}
+/*yorkshire tea*/
+section article#yorkshire-tea-information {
+    /* ReSharper disable once UnknownCssVendorExtension */
+    -ms-opacity: 1;
+    opacity: 1;
+}
+
+/*northwest tea*/
+section article#northwest-tea-information {
+    margin-top: 200px;
+    /* ReSharper disable once UnknownCssVendorExtension */
+    -ms-opacity: 1;
+    opacity: 1;
+}
+
+/*eastanglia tea*/
+section article#eastanglia-tea-information {
+    margin-top: 400px;
+    /* ReSharper disable once UnknownCssVendorExtension */
+    -ms-opacity: 1;
+    opacity: 1;
+}
+
+
+
+@media only screen and (min-width: 1025px) {
+    main {
+        -webkit-background-size: initial;
+        -moz-background-size: initial;
+        -o-background-size: cover;
+        background-size: initial;
+        background-position: center;
+        
+        background-repeat: no-repeat;
+        min-height: 3000px;
+        left: 200px;
+        min-height: 3750px;
+    }
+
+    .map-container {
+        min-height: 3550px;
+    }
+
+    .hidden-md-up {
+        display: block;
+    }
+
+    section article#scotland-tea-information {
+        margin-top: 500px;
+        margin-right: -20px;
+    }
+
+    section article#eastmidland-tea-information {
+        margin-top: 200px;
+        margin-left: 300px;
+    }
+
+    section article#yorkshire-tea-information {
+        margin-top: 200px;
+        margin-right: -40px;
+    }
+
+    section article#northwest-tea-information {
+        margin-right: -130px;
+    }
+
+    section article#eastanglia-tea-information {
+        margin-right: -100px;
+    }
+}
+
+#tea-pot {
+    width: 250px;
+}
+
+.tea-cup {
+    width: 240px;
+}
+
+/*Mobile version changes*/
+
+@media only screen and (max-width: 987px) {
+    #tea-pot {
+        width: 130px !important;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+
+    section article#scotland-tea-information {
+        margin-top: 200px !important;
+    }
+
+    section article#eastmidland-tea-information {
+        margin-top: 50px !important;
+    }
+
+    section article#yorkshire-tea-information {
+        margin-top: 50px !important;
+    }
+
+    section article#northwest-tea-information {
+        margin-top: 50px !important;
+    }
+
+    section article#eastanglia-tea-information {
+        margin-top: 50px !important;
+    }
+
+    .tea-pot-smoke {
+        display: none;
+    }
+}
+
+/*.tea-cup-stream{
+   bottom: 200px;
+    height: 80px;
+    left: 50%;
+    position: absolute;
+     -moz-animation: smokeA 6s infinite;
+    -o-animation: smokeA 6s infinite;
+    -webkit-animation: smokeA 6s infinite;
+    -ms-animation: smokeA 6s infinite;
+    animation: smokeA 6s infinite;
+}*/
+
+ 
+@-moz-keyframes waterfallloop {
+  0% { background-position:0 0; }
+  /* the end position y must equal bitmap's height */
+  50% {
+       background-position: 0 100px;
+  }
+  100% { background-position: 0 150px; }
+}
+
+@-webkit-keyframes waterfallloop {
+  0% { background-position:0 0; }
+  
+  100% { background-position: 0 150px; }
+}
+
+@-ms-keyframes waterfallloop {
+  0% { background-position:0 0; }
+  
+  100% { background-position: 0 150px; }
+}
+
+@-o-keyframes waterfallloop {
+  0% { background-position:0 0; } 
+  
+  100% { background-position: 0 150px; }
+}
+
+@keyframes translateYToZero {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+    }
+/* The mask overlay to soften borders */
+.waterfall-mask {
+    width: 250px;
+    height: 200px;
+    background: url('../Images/tea-cup-mask.png') 367px 87px no-repeat;
+}
+
+.header-title{
+	text-align: center;
+    font-size: 40px;
+    color: black;
+    font-family: cursive;
+}
+

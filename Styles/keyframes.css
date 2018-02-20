@@ -1,0 +1,180 @@
+﻿
+@keyframes translateY40 {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(40px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+
+@-moz-keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
+
+@keyframes drift {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(2000px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes rock {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(7deg);
+    }
+
+    75% {
+        transform: rotate(-7deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+/* Show or Hide animation*/
+@-webkit-keyframes nosmoke {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@keyframes smokeA {
+    0% { top: 0px; opacity: .075; visibility: visible; }
+20% { top: -5px; opacity: 0.5; }
+40% { top: -10px; opacity: 0.7; }
+60% { top: -20px; opacity: 0.2; }
+80% { top: -30px; opacity: .075; }
+100% { top:-40px; opacity: 0; visibility: hidden; }
+    /*0% {
+        top: 0px;
+        opacity: 0;
+    }
+
+    50% {
+        top: -30px;
+        opacity: 0.7;
+    }
+
+    100% {
+        top: -40px;
+        opacity: 0;
+    }*/
+}
+
+@keyframes rotate-180 {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* rotate left right animation*/
+@keyframes tea-pouring {
+    0% {
+        transform: rotate(20deg);
+    }
+
+    25% {
+        transform: rotate(20deg);
+    }
+
+    75% {
+        transform: rotate(20deg);
+    }
+
+    100% {
+        transform: rotate(20deg);
+    }
+}
+
+
+@keyframes rock {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(7deg);
+    }
+
+    75% {
+        transform: rotate(-7deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+ 
